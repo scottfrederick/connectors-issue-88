@@ -14,6 +14,6 @@ public class TestApplication {
 
 	@Profile("nested")
 	@Configuration
-	public class NestedCloudConfig extends AbstractCloudConfig {
+	public static class NestedCloudConfig extends AbstractCloudConfig {
 	}
 }
